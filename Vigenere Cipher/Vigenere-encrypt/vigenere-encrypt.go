@@ -9,7 +9,6 @@ import (
 )
 
 func showMessage(){
-	fmt.Println("Vigenere Cipher tool for encryption");
 	fmt.Println("Usage :  vigenere-encrypt <encryption key> <plaintext file>")
 }
 
@@ -74,8 +73,5 @@ func main(){
 	ptext = garbageCollection(ptext)
 	key := garbageCollection(os.Args[1])
 	cipherText := makeCipherText (key,ptext)
-	fmt.Println("file contents %s", ptext)
-	fmt.Println("key", key)	
-	fmt.Println ("Ciphertext",cipherText)
 	outputFile(cipherText)
 }
