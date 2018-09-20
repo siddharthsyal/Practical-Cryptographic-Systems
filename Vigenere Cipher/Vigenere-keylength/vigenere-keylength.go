@@ -8,7 +8,7 @@ import (
 )
 
 func showMessage(){
-	fmt.Println("Usage :  vigenere-decrypt <ciphertext file>")
+	fmt.Println("Usage :  vigenere-keylength <ciphertext file>")
 	}
 
 func garbageCollection(buff string) string {
