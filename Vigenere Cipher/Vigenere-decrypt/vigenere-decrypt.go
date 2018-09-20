@@ -9,7 +9,7 @@ import (
 )
 
 func showMessage(){
-	fmt.Println("Usage :  vigenere-decrypt <dencryption key> <ciphertext file>")
+	fmt.Println("Usage :  vigenere-decrypt <decryption key> <ciphertext file>")
 }
 
 func garbageCollection(buff string) string {
